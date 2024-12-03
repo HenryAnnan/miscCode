@@ -1,5 +1,3 @@
-
-
 public class CircularQueue {
     private String myQueue[] = new String[5];
     private int headPointer = 0;
@@ -10,7 +8,7 @@ public class CircularQueue {
 
     public void enqueue(String newItem){
         if (numOfItems == myQueue.length){
-            System.out.println("Queue Overflow");
+            System.out.println("Queue Overflow"); 
             return;
         }else{
             myQueue[tailPointer] = newItem;
